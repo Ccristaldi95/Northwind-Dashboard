@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Conexión con la base de datos 
-conn = sqlite3.connect("/Users/constanza/Documents/SQL con Dalto/northwind.db")
+conn = sqlite3.connect("northwind.db")
 
 # Función para obtener KPIs
 
