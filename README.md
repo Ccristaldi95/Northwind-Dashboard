@@ -1,37 +1,48 @@
-#  Dashboard Comercial - Northwind
+# Dashboard Comercial - Northwind
 
-Dashboard interactivo desarrollado en Python y Dash para analizar el desempeño comercial de la base de datos Northwind.
+Análisis exploratorio y dashboard interactivo desarrollado en Python
+para analizar el desempeño comercial de la base de datos Northwind.
 
-**[Ver Dashboard Interactivo] https://northwind-sales-dashboard.onrender.com
+##  Dashboard Interactivo
+
+[Ver Dashboard Interactivo]
+
+##  Análisis exploratorio de datos
+
+El proyecto comienza con un análisis exploratorio de los datos,
+utilizando Python, Pandas, SQL y visualizaciones para identificar
+patrones de ventas, productos, categorías y clientes.
+
+ [Ver EDA](EDA/Northwind_EDA.ipynb)
 
 ##  Objetivo
 
-Analizar las ventas y el desempeño comercial de la empresa mediante indicadores y visualizaciones que permitan identificar tendencias y principales actores del negocio.
+Analizar las ventas y el desempeño comercial de la empresa mediante
+indicadores y visualizaciones que permitan identificar tendencias y
+principales actores del negocio.
 
-##  Tecnologías utilizadas
+##  Tecnologías
 
 - Python
 - Pandas
 - SQLite
-- SQL
+- Matplotlib
+- Seaborn
 - Plotly
 - Dash
 
-##  Análisis realizado
+##  Dashboard
 
 El dashboard permite analizar:
 
-- KPIs generales del negocio
-- Evolución mensual de los ingresos
+- KPIs generales
+- Evolución mensual de ingresos
 - Ingresos por categoría
-- Unidades vendidas por categoría
-- Precio promedio por categoría
-- Productos con mayores ingresos
-- Productos más vendidos
-- Relación entre precio y unidades vendidas
-- Principales clientes por ingresos
+- Unidades vendidas
+- Productos
+- Clientes
 - Desempeño de empleados
-- Cantidad de órdenes procesadas por empleado
+
 
 ##  Principales hallazgos
 
@@ -44,11 +55,13 @@ El dashboard permite analizar:
 
 ##  Estructura del proyecto
 
-```text
-Northwind_Dashboard/
+Northwind-Dashboard/
 │
-├── dashboard.py
+├── EDA/
+│   └── Northwind_EDA.ipynb
+├── Dashboard.py
 ├── Consultas.py
 ├── Graficos.py
 ├── northwind.db
 ├── requirements.txt
+└── README.md
