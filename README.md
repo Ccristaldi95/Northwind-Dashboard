@@ -5,7 +5,7 @@ para analizar el desempeño comercial de la base de datos Northwind.
 
 ##  Dashboard Interactivo
 
-[Ver Dashboard Interactivo]
+[Ver Dashboard Interactivo] 
 
 ##  Análisis exploratorio de datos
 
