@@ -1,4 +1,5 @@
 from dash import Dash, html, dcc, dash_table
+import os
 
 from Consultas import *
 from Graficos import *
@@ -471,5 +472,6 @@ html.P(
     }
 )
 
-if __name__ == "__main__": #ejecutamos la aplicación
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8050))
+    app.run(host="0.0.0.0", port=port)
